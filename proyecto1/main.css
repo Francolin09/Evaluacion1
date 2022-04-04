@@ -9,19 +9,36 @@
     padding-bottom: 50px;
     
 }
-h1{text-align: center;
+h1{text-align: center;}
 
-}
 .imagenesdestacad{
     display: inline-flex;
 }
+.card-img-top{height: 180px;}
+
 .destaca{
     padding: 70px;
 }
 .card{
     
-    margin-right: 170px;
+    margin-right: 60px;
     margin-top: 50px;
+    margin-left: 45px;
    
     
+}
+
+.contacto{
+    margin-top: 60px;
+    padding-left: 100px;
+    text-align: center;
+    padding-right: 120px;
+}
+i{width:150px;
+padding-top: 100px;}
+
+.contas{padding-top: 100px;}
+
+.iconos{
+    text-align: center;
 }
