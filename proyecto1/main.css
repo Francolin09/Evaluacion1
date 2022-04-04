@@ -1,12 +1,18 @@
+
+
 .carousel-item{
-    height: 450px;
+    height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .presentacion{
     align-items: center;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    margin-bottom: -16px;
+    background-color: #F5D4B6;
     
 }
 h1{text-align: center;}
@@ -29,7 +35,7 @@ h1{text-align: center;}
 }
 
 .contacto{
-    margin-top: 60px;
+    padding-top: 60px;
     padding-left: 100px;
     text-align: center;
     padding-right: 120px;
@@ -41,4 +47,15 @@ padding-top: 100px;}
 
 .iconos{
     text-align: center;
+}
+
+.destacados{background-color: #F5D4B6;}
+
+.seccioncontacto{background-color: #F5D4B6;}
+
+.textoquienessomos{
+    padding: 50px;
+}
+.navbar{
+    background-color: #F5D4B6;
 }
