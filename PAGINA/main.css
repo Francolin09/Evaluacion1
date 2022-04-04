@@ -1,0 +1,15 @@
+.carousel-item{
+    height: 450px;
+}
+.presentacion{
+    align-items: center;
+    padding: 50px;
+}
+h1{text-align: center;
+}
+
+.infodestacado{
+    text-align: center;
+    padding: 20px;
+}
+
