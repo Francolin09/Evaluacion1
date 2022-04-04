@@ -12,3 +12,16 @@
 h1{text-align: center;
 
 }
+.imagenesdestacad{
+    display: inline-flex;
+}
+.destaca{
+    padding: 70px;
+}
+.card{
+    
+    margin-right: 170px;
+    margin-top: 50px;
+   
+    
+}
