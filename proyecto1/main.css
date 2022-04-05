@@ -14,13 +14,14 @@
     margin-bottom: -16px;
     background-color: #F5D4B6;
     
+    
 }
 h1{text-align: center;}
 
 .imagenesdestacad{
     display: inline-flex;
 }
-.card-img-top{height: 180px;}
+.card-img-top{height: 200px;}
 
 .destaca{
     padding: 70px;
@@ -59,3 +60,19 @@ padding-top: 100px;}
 .navbar{
     background-color: #F5D4B6;
 }
+.nav-link{
+    color: black !important;
+}
+.navbar-brand{
+    padding-left: 25px;
+    color:#2BA136;
+    font-family: 'Courgette', cursive;
+    font-size: 155px;
+}
+.kiene{padding-top: 30px;}
+
+.ubik{
+    text-align: center;
+}
+
+.mono{color: black;}
