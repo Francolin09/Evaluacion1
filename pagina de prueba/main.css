@@ -1,0 +1,41 @@
+.carousel-item{
+    height: 450px;
+}
+.presentacion{
+    align-items: center;
+    padding: 50px;
+    background-color: #F5D4B6;
+}
+h1{text-align: center;
+}
+
+.infodestacado{
+    text-align: center;
+    padding: 50px;
+    background-color: #F5D4B6;
+}
+.float-right{
+    padding-right: 50px;
+}
+.ubicacion{
+    padding-right: 50px;
+}
+
+
+.navbar-brand{
+    padding-left: 25px;
+    color:#2BA136;
+    font-family: 'Courgette', cursive;
+    font-size: 155px;
+}
+.kiene{padding-top: 30px;}
+
+.ubicacion{
+    text-align: left;
+}
+
+.mono{color: black;}
+
+.iconos{
+    text-align: center;
+}
