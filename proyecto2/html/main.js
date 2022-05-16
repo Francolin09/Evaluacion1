@@ -93,7 +93,7 @@ $(document).ready(function(){
       
       $("#txt_rut").focusout(function(){
         if (Fn.validaRut( $("#txt_rut").val() )){
-          $("#alertaRut").html("El rut ingresado es válido :D");
+          $("#alertaRut").hide()
           
         } else {
           $("#alertaRut").html("Debe ingresar un rut válido ");
