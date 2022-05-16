@@ -1,0 +1,28 @@
+#clima{
+    width:200px ;
+    height: 200px;
+    border-radius: 43px;
+    background-color: darkcyan;
+}
+#comuna{
+    padding-left: 45px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#temperatura{
+    padding-left: 20px;
+    font-size: 50px;
+}
+#icono{
+    width: 10px;
+    height: 10px;
+    padding-left: 47px;
+    
+}
+#estado{
+    padding-left: 68px;
+    padding-top: 58px;
+    font-size: 25px;
+    
+}
