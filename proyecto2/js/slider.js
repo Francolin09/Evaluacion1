@@ -49,6 +49,9 @@ $(document).ready(function(){
     var temperatura= document.getElementById("temperatura")
     var descripcion= document.getElementById("estado");
     var imagen = document.getElementById("imagen")
+    var uf = document.getElementById("uf");
+    var dolar = document.getElementById("dolar");
+    var utm = document.getElementById("utm");
     var ubicacion = navigator.geolocation.getCurrentPosition(data=>{
         
         var latitud=data.coords.latitude;
@@ -69,6 +72,22 @@ $(document).ready(function(){
         
         
     });
+    $.getJSON("https://mindicador.cl/api/uf",function(valor){
+        console.log(valor.nombre,valor.serie[0].valor);
+        uf.innerHTML = valor.nombre+": $"+valor.serie[0].valor
+
+    })
+
+    $.getJSON("https://mindicador.cl/api/dolar",function(valor){
+        console.log(valor.nombre,valor.serie[0].valor);
+        dolar.innerHTML = valor.nombre+": $"+valor.serie[0].valor
+
+    })
+    $.getJSON("https://mindicador.cl/api/utm",function(valor){
+        console.log(valor.nombre,valor.serie[0].valor);
+        utm.innerHTML = valor.nombre+": $"+valor.serie[0].valor
+
+    })
     
 
     

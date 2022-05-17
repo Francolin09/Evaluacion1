@@ -549,7 +549,10 @@ color: #73A626;
     height: 77px;
     border-radius: 43px;
     background-color: darkcyan;
-    margin-left: 900px;
+    border-color: #212121;
+    border-style: groove;
+    
+    display: flex;
 }
 #comuna{
     padding-left: 21px;
@@ -590,4 +593,16 @@ color: #73A626;
     display: flex;
     grid-template-columns: repeat(2, 1fr); 
     grid-gap: 10px;
+    
   }
+  #dolar{
+      font-size: small;
+      padding-left: 25px;
+  }
+  #uf{
+    font-size: small;
+    padding-left: 25px;
+}
+#utm{
+    font-size: small;
+}
