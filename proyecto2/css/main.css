@@ -209,7 +209,7 @@ color: #73A626;
 
 .btn-shop{
     display: block;
-    border: 2px solid #548C8C;
+    border: 2px solid #fff;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -273,10 +273,11 @@ color: #73A626;
 .product-icon{
     display:block;
     margin-top: 10px;
+    
 }
 
 .product:hover .product-icon{
-    color: #477332;
+    color: #fff;
 }
 .carritos{
     color: #477332;
@@ -576,9 +577,9 @@ color: #73A626;
     
 }
 #estado{
-    padding-left: 60px;
+    padding-left: 50px;
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 #imagen{
@@ -590,19 +591,20 @@ color: #73A626;
     
 }
 .containerx {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-gap: 10px;
     
   }
   #dolar{
-      font-size: small;
+      font-size: x-small;
       padding-left: 25px;
+    
   }
   #uf{
-    font-size: small;
+    font-size: x-small;
     padding-left: 25px;
 }
 #utm{
-    font-size: small;
+    font-size: x-small;
 }
